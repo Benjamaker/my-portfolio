@@ -2,21 +2,21 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Benjamaker. Welcome.
         </p>
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          className="github-link"
+          href="https://github.com/benjamaker"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          GitHub
         </a>
       </header>
     </div>
