@@ -1,17 +1,8 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import App from './App'
 import * as serviceWorker from './serviceWorker';
-
-class App extends React.component {
-  render() {
-    return(
-      <div className="App">
-        <h1>Hello, React!</h1>
-      </div>
-    )
-  }
-}
 
 ReactDOM.render(
   <React.StrictMode>
