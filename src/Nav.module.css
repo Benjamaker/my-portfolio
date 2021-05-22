@@ -1,0 +1,37 @@
+.navBar {
+  padding: 20px;
+  position: fixed;
+  left: -100%;
+  transition: 0.2s ease-in-out;
+  transition-property: left;
+  height: 100%;
+  width: 20%;
+  background-color: #f1e496;
+}
+
+.navBar.navOpen {
+  left: 0;
+  transition-duration: 1s;
+}
+
+.navLinks {
+  text-decoration: none;
+  margin: 10px;
+  padding: 5px;
+  border-left: solid 5px transparent;
+}
+
+.navLinks:hover {
+  background-color: yellow;
+  border-left: solid 5px green;
+
+}
+
+.navOpenButton {
+  background-color: black;
+  color: white;
+  height: 40px;
+  padding: 10px;
+}
+
+

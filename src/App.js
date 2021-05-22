@@ -1,12 +1,20 @@
-import React, { Component } from 'react'
-import Table from './Table'
+import React, { Component } from 'react';
+import styles from './App.module.css';
+import Table from './Table';
+import Nav from './Nav';
+import Header from './Header';
 
 
 class App extends Component {
   render() {
     return (
-      <div className="container">
+      <div>
+        <section className={styles.headerContainer}>
+          <Header />
+        </section>
+        <section className={styles.bodyContainer}>
           <Table />
+        </section>
       </div>
     )
   }

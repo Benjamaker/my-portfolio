@@ -22,7 +22,7 @@ const TableBody = () => {
       </tr>
       <tr>
         <td>Pocket Positivity</td>
-        <td>https://github.com/basselalsayed/pocket_positivity</td>
+        <td>https://github.com/benjamaker/pocket_positivity</td>
         <td>React Native, Node.js, Express</td>
       </tr>
       <tr>
